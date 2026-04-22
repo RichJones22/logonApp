@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "laravel-boost": {
+      "command": "/Users/richjones/Library/Application Support/Herd/bin/php85",
+      "args": [
+        "/Users/richjones/Laravel/Code/logonApp/artisan",
+        "boost:mcp"
+      ]
+    }
+  }
+}
