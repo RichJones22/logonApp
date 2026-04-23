@@ -47,9 +47,6 @@ withDefaults(
                     </Link>
                 </template>
             </nav>
-            <div class="mt-4 text-center">
-                <h2 class="text-2xl font-bold dark:text-white">Hello World..</h2>
-            </div>
         </header>
         <div
             class="flex w-full items-center justify-center opacity-100 transition-opacity duration-750 lg:grow starting:opacity-0"
