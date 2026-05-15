@@ -25,6 +25,8 @@ describe('toUrl', () => {
     });
 
     it('extracts the url property from an object href', () => {
-        expect(toUrl({ url: '/login', method: 'get', data: {} } as any)).toBe('/login');
+        expect(toUrl({ url: '/login', method: 'get', data: {} } as any)).toBe(
+            '/login',
+        );
     });
 });

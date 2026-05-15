@@ -56,8 +56,7 @@ withDefaults(
             >
                 <div
                     class="flex-1 rounded-br-lg rounded-bl-lg bg-white p-6 pb-12 text-[13px] leading-[20px] shadow-[inset_0px_0px_0px_1px_rgba(26,26,0,0.16)] lg:rounded-tl-lg lg:rounded-br-none lg:p-20 dark:bg-[#161615] dark:text-[#EDEDEC] dark:shadow-[inset_0px_0px_0px_1px_#fffaed2d]"
-                >
-                </div>
+                ></div>
                 <div
                     class="relative -mb-px aspect-[335/364] w-full shrink-0 overflow-hidden rounded-t-lg bg-[#fff2f2] lg:mb-0 lg:-ml-px lg:aspect-auto lg:w-[500px] lg:rounded-t-none lg:rounded-r-lg dark:bg-[#1D0002]"
                 >
@@ -77,7 +76,9 @@ withDefaults(
                             fill="currentColor"
                             textLength="438"
                             lengthAdjust="spacingAndGlyphs"
-                        >Premise</text>
+                        >
+                            Premise
+                        </text>
                     </svg>
 
                     <!-- Software -->
@@ -90,56 +91,296 @@ withDefaults(
                         <g
                             class="text-[#1B1B18] opacity-100 mix-blend-darken transition-all delay-300 duration-750 dark:text-black dark:mix-blend-normal starting:opacity-0"
                         >
-                            <mask id="sw-mask-1" maskUnits="userSpaceOnUse" x="-1" y="25" width="432" height="170" fill="black">
-                                <rect fill="white" x="-1" y="25" width="432" height="170" />
-                                <text x="0" y="170" font-family="Inter var, Inter, system-ui, sans-serif" font-size="160" font-weight="900" textLength="430" lengthAdjust="spacingAndGlyphs">Software</text>
+                            <mask
+                                id="sw-mask-1"
+                                maskUnits="userSpaceOnUse"
+                                x="-1"
+                                y="25"
+                                width="432"
+                                height="170"
+                                fill="black"
+                            >
+                                <rect
+                                    fill="white"
+                                    x="-1"
+                                    y="25"
+                                    width="432"
+                                    height="170"
+                                />
+                                <text
+                                    x="0"
+                                    y="170"
+                                    font-family="Inter var, Inter, system-ui, sans-serif"
+                                    font-size="160"
+                                    font-weight="900"
+                                    textLength="430"
+                                    lengthAdjust="spacingAndGlyphs"
+                                >
+                                    Software
+                                </text>
                             </mask>
-                            <text x="0" y="170" font-family="Inter var, Inter, system-ui, sans-serif" font-size="160" font-weight="900" fill="currentColor" textLength="430" lengthAdjust="spacingAndGlyphs">Software</text>
-                            <text x="0" y="170" font-family="Inter var, Inter, system-ui, sans-serif" font-size="160" font-weight="900" stroke="var(--stroke-color)" stroke-width="2.4" mask="url(#sw-mask-1)" textLength="430" lengthAdjust="spacingAndGlyphs">Software</text>
+                            <text
+                                x="0"
+                                y="170"
+                                font-family="Inter var, Inter, system-ui, sans-serif"
+                                font-size="160"
+                                font-weight="900"
+                                fill="currentColor"
+                                textLength="430"
+                                lengthAdjust="spacingAndGlyphs"
+                            >
+                                Software
+                            </text>
+                            <text
+                                x="0"
+                                y="170"
+                                font-family="Inter var, Inter, system-ui, sans-serif"
+                                font-size="160"
+                                font-weight="900"
+                                stroke="var(--stroke-color)"
+                                stroke-width="2.4"
+                                mask="url(#sw-mask-1)"
+                                textLength="430"
+                                lengthAdjust="spacingAndGlyphs"
+                            >
+                                Software
+                            </text>
                         </g>
 
                         <g
                             class="text-[#F3BEC7] opacity-100 transition-all delay-400 duration-750 dark:text-[#4B0600] starting:opacity-0 motion-safe:starting:-translate-x-[26px]"
                         >
-                            <mask id="sw-mask-2" maskUnits="userSpaceOnUse" x="24" y="25" width="432" height="170" fill="black">
-                                <rect fill="white" x="24" y="25" width="432" height="170" />
-                                <text x="25" y="170" font-family="Inter var, Inter, system-ui, sans-serif" font-size="160" font-weight="900" textLength="430" lengthAdjust="spacingAndGlyphs">Software</text>
+                            <mask
+                                id="sw-mask-2"
+                                maskUnits="userSpaceOnUse"
+                                x="24"
+                                y="25"
+                                width="432"
+                                height="170"
+                                fill="black"
+                            >
+                                <rect
+                                    fill="white"
+                                    x="24"
+                                    y="25"
+                                    width="432"
+                                    height="170"
+                                />
+                                <text
+                                    x="25"
+                                    y="170"
+                                    font-family="Inter var, Inter, system-ui, sans-serif"
+                                    font-size="160"
+                                    font-weight="900"
+                                    textLength="430"
+                                    lengthAdjust="spacingAndGlyphs"
+                                >
+                                    Software
+                                </text>
                             </mask>
-                            <text x="25" y="170" font-family="Inter var, Inter, system-ui, sans-serif" font-size="160" font-weight="900" fill="currentColor" textLength="430" lengthAdjust="spacingAndGlyphs">Software</text>
-                            <text x="25" y="170" font-family="Inter var, Inter, system-ui, sans-serif" font-size="160" font-weight="900" stroke="var(--stroke-color)" stroke-width="2.4" mask="url(#sw-mask-2)" textLength="430" lengthAdjust="spacingAndGlyphs">Software</text>
+                            <text
+                                x="25"
+                                y="170"
+                                font-family="Inter var, Inter, system-ui, sans-serif"
+                                font-size="160"
+                                font-weight="900"
+                                fill="currentColor"
+                                textLength="430"
+                                lengthAdjust="spacingAndGlyphs"
+                            >
+                                Software
+                            </text>
+                            <text
+                                x="25"
+                                y="170"
+                                font-family="Inter var, Inter, system-ui, sans-serif"
+                                font-size="160"
+                                font-weight="900"
+                                stroke="var(--stroke-color)"
+                                stroke-width="2.4"
+                                mask="url(#sw-mask-2)"
+                                textLength="430"
+                                lengthAdjust="spacingAndGlyphs"
+                            >
+                                Software
+                            </text>
                         </g>
 
                         <g
                             class="text-[#F8B803] opacity-100 mix-blend-color transition-all delay-400 duration-750 dark:text-[#391800] dark:mix-blend-hard-light starting:opacity-0 motion-safe:starting:-translate-x-[51px]"
                         >
-                            <mask id="sw-mask-3" maskUnits="userSpaceOnUse" x="50" y="25" width="432" height="170" fill="black">
-                                <rect fill="white" x="50" y="25" width="432" height="170" />
-                                <text x="51" y="170" font-family="Inter var, Inter, system-ui, sans-serif" font-size="160" font-weight="900" textLength="430" lengthAdjust="spacingAndGlyphs">Software</text>
+                            <mask
+                                id="sw-mask-3"
+                                maskUnits="userSpaceOnUse"
+                                x="50"
+                                y="25"
+                                width="432"
+                                height="170"
+                                fill="black"
+                            >
+                                <rect
+                                    fill="white"
+                                    x="50"
+                                    y="25"
+                                    width="432"
+                                    height="170"
+                                />
+                                <text
+                                    x="51"
+                                    y="170"
+                                    font-family="Inter var, Inter, system-ui, sans-serif"
+                                    font-size="160"
+                                    font-weight="900"
+                                    textLength="430"
+                                    lengthAdjust="spacingAndGlyphs"
+                                >
+                                    Software
+                                </text>
                             </mask>
-                            <text x="51" y="170" font-family="Inter var, Inter, system-ui, sans-serif" font-size="160" font-weight="900" fill="currentColor" textLength="430" lengthAdjust="spacingAndGlyphs">Software</text>
-                            <text x="51" y="170" font-family="Inter var, Inter, system-ui, sans-serif" font-size="160" font-weight="900" stroke="var(--stroke-color)" stroke-width="2.4" mask="url(#sw-mask-3)" textLength="430" lengthAdjust="spacingAndGlyphs">Software</text>
+                            <text
+                                x="51"
+                                y="170"
+                                font-family="Inter var, Inter, system-ui, sans-serif"
+                                font-size="160"
+                                font-weight="900"
+                                fill="currentColor"
+                                textLength="430"
+                                lengthAdjust="spacingAndGlyphs"
+                            >
+                                Software
+                            </text>
+                            <text
+                                x="51"
+                                y="170"
+                                font-family="Inter var, Inter, system-ui, sans-serif"
+                                font-size="160"
+                                font-weight="900"
+                                stroke="var(--stroke-color)"
+                                stroke-width="2.4"
+                                mask="url(#sw-mask-3)"
+                                textLength="430"
+                                lengthAdjust="spacingAndGlyphs"
+                            >
+                                Software
+                            </text>
                         </g>
 
                         <g
                             class="text-[#F3BEC7] opacity-100 mix-blend-multiply transition-all delay-400 duration-750 dark:text-[#733000] dark:mix-blend-normal starting:opacity-0 motion-safe:starting:-translate-x-[78px]"
                         >
-                            <mask id="sw-mask-4" maskUnits="userSpaceOnUse" x="76" y="25" width="432" height="170" fill="black">
-                                <rect fill="white" x="76" y="25" width="432" height="170" />
-                                <text x="77" y="170" font-family="Inter var, Inter, system-ui, sans-serif" font-size="160" font-weight="900" textLength="430" lengthAdjust="spacingAndGlyphs">Software</text>
+                            <mask
+                                id="sw-mask-4"
+                                maskUnits="userSpaceOnUse"
+                                x="76"
+                                y="25"
+                                width="432"
+                                height="170"
+                                fill="black"
+                            >
+                                <rect
+                                    fill="white"
+                                    x="76"
+                                    y="25"
+                                    width="432"
+                                    height="170"
+                                />
+                                <text
+                                    x="77"
+                                    y="170"
+                                    font-family="Inter var, Inter, system-ui, sans-serif"
+                                    font-size="160"
+                                    font-weight="900"
+                                    textLength="430"
+                                    lengthAdjust="spacingAndGlyphs"
+                                >
+                                    Software
+                                </text>
                             </mask>
-                            <text x="77" y="170" font-family="Inter var, Inter, system-ui, sans-serif" font-size="160" font-weight="900" fill="currentColor" textLength="430" lengthAdjust="spacingAndGlyphs">Software</text>
-                            <text x="77" y="170" font-family="Inter var, Inter, system-ui, sans-serif" font-size="160" font-weight="900" stroke="var(--stroke-color)" stroke-width="2.4" mask="url(#sw-mask-4)" textLength="430" lengthAdjust="spacingAndGlyphs">Software</text>
+                            <text
+                                x="77"
+                                y="170"
+                                font-family="Inter var, Inter, system-ui, sans-serif"
+                                font-size="160"
+                                font-weight="900"
+                                fill="currentColor"
+                                textLength="430"
+                                lengthAdjust="spacingAndGlyphs"
+                            >
+                                Software
+                            </text>
+                            <text
+                                x="77"
+                                y="170"
+                                font-family="Inter var, Inter, system-ui, sans-serif"
+                                font-size="160"
+                                font-weight="900"
+                                stroke="var(--stroke-color)"
+                                stroke-width="2.4"
+                                mask="url(#sw-mask-4)"
+                                textLength="430"
+                                lengthAdjust="spacingAndGlyphs"
+                            >
+                                Software
+                            </text>
                         </g>
 
                         <g
                             class="text-[#F3BEC7] opacity-100 mix-blend-hard-light transition-all delay-400 duration-750 dark:text-[#4B0600] starting:opacity-0 motion-safe:starting:-translate-x-[102px]"
                         >
-                            <mask id="sw-mask-5" maskUnits="userSpaceOnUse" x="101" y="25" width="432" height="170" fill="black">
-                                <rect fill="white" x="101" y="25" width="432" height="170" />
-                                <text x="102" y="170" font-family="Inter var, Inter, system-ui, sans-serif" font-size="160" font-weight="900" textLength="430" lengthAdjust="spacingAndGlyphs">Software</text>
+                            <mask
+                                id="sw-mask-5"
+                                maskUnits="userSpaceOnUse"
+                                x="101"
+                                y="25"
+                                width="432"
+                                height="170"
+                                fill="black"
+                            >
+                                <rect
+                                    fill="white"
+                                    x="101"
+                                    y="25"
+                                    width="432"
+                                    height="170"
+                                />
+                                <text
+                                    x="102"
+                                    y="170"
+                                    font-family="Inter var, Inter, system-ui, sans-serif"
+                                    font-size="160"
+                                    font-weight="900"
+                                    textLength="430"
+                                    lengthAdjust="spacingAndGlyphs"
+                                >
+                                    Software
+                                </text>
                             </mask>
-                            <text x="102" y="170" font-family="Inter var, Inter, system-ui, sans-serif" font-size="160" font-weight="900" fill="currentColor" textLength="430" lengthAdjust="spacingAndGlyphs">Software</text>
-                            <text x="102" y="170" font-family="Inter var, Inter, system-ui, sans-serif" font-size="160" font-weight="900" stroke="var(--stroke-color)" stroke-width="2.4" mask="url(#sw-mask-5)" textLength="430" lengthAdjust="spacingAndGlyphs">Software</text>
+                            <text
+                                x="102"
+                                y="170"
+                                font-family="Inter var, Inter, system-ui, sans-serif"
+                                font-size="160"
+                                font-weight="900"
+                                fill="currentColor"
+                                textLength="430"
+                                lengthAdjust="spacingAndGlyphs"
+                            >
+                                Software
+                            </text>
+                            <text
+                                x="102"
+                                y="170"
+                                font-family="Inter var, Inter, system-ui, sans-serif"
+                                font-size="160"
+                                font-weight="900"
+                                stroke="var(--stroke-color)"
+                                stroke-width="2.4"
+                                mask="url(#sw-mask-5)"
+                                textLength="430"
+                                lengthAdjust="spacingAndGlyphs"
+                            >
+                                Software
+                            </text>
                         </g>
                     </svg>
                     <div

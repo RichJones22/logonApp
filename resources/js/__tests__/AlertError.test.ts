@@ -15,7 +15,9 @@ describe('AlertError', () => {
 
     it('deduplicates repeated error messages', () => {
         const wrapper = mount(AlertError, {
-            props: { errors: ['Same error.', 'Same error.', 'Different error.'] },
+            props: {
+                errors: ['Same error.', 'Same error.', 'Different error.'],
+            },
         });
         expect(wrapper.findAll('li')).toHaveLength(2);
     });

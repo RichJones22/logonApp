@@ -10,7 +10,9 @@ describe('PasswordInput', () => {
 
     it('shows "Show password" aria-label on the toggle button by default', () => {
         const wrapper = mount(PasswordInput);
-        expect(wrapper.find('button').attributes('aria-label')).toBe('Show password');
+        expect(wrapper.find('button').attributes('aria-label')).toBe(
+            'Show password',
+        );
     });
 
     it('switches input to type text after clicking the toggle button', async () => {
@@ -22,7 +24,9 @@ describe('PasswordInput', () => {
     it('updates aria-label to "Hide password" after toggling visible', async () => {
         const wrapper = mount(PasswordInput);
         await wrapper.find('button').trigger('click');
-        expect(wrapper.find('button').attributes('aria-label')).toBe('Hide password');
+        expect(wrapper.find('button').attributes('aria-label')).toBe(
+            'Hide password',
+        );
     });
 
     it('toggles back to password type on a second click', async () => {

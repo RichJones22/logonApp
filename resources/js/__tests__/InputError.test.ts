@@ -14,13 +14,17 @@ describe('InputError', () => {
     });
 
     it('is visible and displays the message when provided', () => {
-        const wrapper = mount(InputError, { props: { message: 'This field is required.' } });
+        const wrapper = mount(InputError, {
+            props: { message: 'This field is required.' },
+        });
         expect(wrapper.isVisible()).toBe(true);
         expect(wrapper.text()).toContain('This field is required.');
     });
 
     it('renders the message inside a paragraph element', () => {
-        const wrapper = mount(InputError, { props: { message: 'Invalid email.' } });
+        const wrapper = mount(InputError, {
+            props: { message: 'Invalid email.' },
+        });
         expect(wrapper.find('p').text()).toBe('Invalid email.');
     });
 });
