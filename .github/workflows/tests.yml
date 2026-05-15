@@ -38,7 +38,7 @@ jobs:
       - name: Create Vite manifest stub
         run: |
           mkdir -p public/build
-          printf '{"resources/js/app.ts":{"file":"assets/app.js","isEntry":true},"resources/css/app.css":{"file":"assets/app.css","isEntry":true}}' > public/build/manifest.json
+          printf '{"resources/js/app.ts":{"file":"assets/app.js","isEntry":true,"src":"resources/js/app.ts"},"resources/css/app.css":{"file":"assets/app.css","isEntry":true,"src":"resources/css/app.css"}}' > public/build/manifest.json
 
       - name: Run Pest
         run: ./vendor/bin/pest
