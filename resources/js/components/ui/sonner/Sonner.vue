@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useAppearance } from '@/composables/useAppearance';
 import { Toaster as SonnerPrimitive } from 'vue-sonner';
+import { useAppearance } from '@/composables/useAppearance';
 import 'vue-sonner/style.css';
 
 const { appearance } = useAppearance();

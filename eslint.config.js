@@ -51,6 +51,24 @@ export default defineConfigWithVueTs(
                 'error',
                 {
                     groups: ['type', 'builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
+                    pathGroups: [
+                        {
+                            pattern: '@/components/**',
+                            group: 'internal',
+                            position: 'before',
+                        },
+                        {
+                            pattern: '@/actions/**',
+                            group: 'internal',
+                            position: 'after',
+                        },
+                        {
+                            pattern: '@/routes/**',
+                            group: 'internal',
+                            position: 'after',
+                        },
+                    ],
+                    pathGroupsExcludedImportTypes: ['type'],
                     alphabetize: {
                         order: 'asc',
                         caseInsensitive: true,
@@ -84,10 +102,6 @@ export default defineConfigWithVueTs(
             'tailwind.config.js',
             'vite.config.ts',
             'vitest.config.ts',
-            'resources/js/actions/**',
-            'resources/js/components/ui/*',
-            'resources/js/routes/**',
-            'resources/js/wayfinder/**',
         ],
     },
     prettier, // Turn off all rules that might conflict with Prettier

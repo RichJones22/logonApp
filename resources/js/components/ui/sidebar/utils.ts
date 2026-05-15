@@ -1,5 +1,5 @@
-import { createContext } from "reka-ui"
 import type { ComputedRef, Ref } from 'vue';
+import { createContext } from "reka-ui"
 
 export type SidebarContext = {
     state: ComputedRef<'expanded' | 'collapsed'>;

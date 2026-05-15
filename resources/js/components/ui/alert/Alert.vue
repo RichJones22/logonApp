@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { HTMLAttributes } from "vue"
 import type { AlertVariants } from "."
+import type { HTMLAttributes } from "vue"
 import { cn } from "@/lib/utils"
 import { alertVariants } from "."
 
