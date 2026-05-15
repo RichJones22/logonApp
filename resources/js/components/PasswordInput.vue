@@ -1,7 +1,7 @@
 <script setup lang="ts">
+import type { HTMLAttributes } from 'vue';
 import { Eye, EyeOff } from 'lucide-vue-next';
 import { ref, useTemplateRef } from 'vue';
-import type { HTMLAttributes } from 'vue';
 import { Input } from '@/components/ui/input';
 import { cn } from '@/lib/utils';
 

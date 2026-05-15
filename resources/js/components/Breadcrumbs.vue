@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import type { BreadcrumbItem as BreadcrumbItemType } from '@/types';
 import { Link } from '@inertiajs/vue3';
 import {
     Breadcrumb,
@@ -8,7 +9,6 @@ import {
     BreadcrumbPage,
     BreadcrumbSeparator,
 } from '@/components/ui/breadcrumb';
-import type { BreadcrumbItem as BreadcrumbItemType } from '@/types';
 
 type Props = {
     breadcrumbs: BreadcrumbItemType[];

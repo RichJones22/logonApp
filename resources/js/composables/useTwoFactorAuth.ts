@@ -1,5 +1,5 @@
-import { useHttp } from '@inertiajs/vue3';
 import type { ComputedRef, Ref } from 'vue';
+import { useHttp } from '@inertiajs/vue3';
 import { computed, ref } from 'vue';
 import { qrCode, recoveryCodes, secretKey } from '@/routes/two-factor';
 

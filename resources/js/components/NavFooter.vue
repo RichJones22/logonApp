@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import type { NavItem } from '@/types';
 import {
     SidebarGroup,
     SidebarGroupContent,
@@ -7,7 +8,6 @@ import {
     SidebarMenuItem,
 } from '@/components/ui/sidebar';
 import { toUrl } from '@/lib/utils';
-import type { NavItem } from '@/types';
 
 type Props = {
     items: NavItem[];

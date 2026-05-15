@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import type { NavItem } from '@/types';
 import { Link } from '@inertiajs/vue3';
 import { BookOpen, FolderGit2, LayoutGrid, Settings } from 'lucide-vue-next';
 import AppLogo from '@/components/AppLogo.vue';
@@ -16,7 +17,6 @@ import {
 } from '@/components/ui/sidebar';
 import { dashboard } from '@/routes';
 import { edit } from '@/routes/profile';
-import type { NavItem } from '@/types';
 
 const mainNavItems: NavItem[] = [
     {

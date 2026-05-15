@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import type { TwoFactorConfigContent } from '@/types';
 import { Form, Head, setLayoutProps } from '@inertiajs/vue3';
 import { computed, ref, watchEffect } from 'vue';
 import InputError from '@/components/InputError.vue';
@@ -10,7 +11,6 @@ import {
     InputOTPSlot,
 } from '@/components/ui/input-otp';
 import { store } from '@/routes/two-factor/login';
-import type { TwoFactorConfigContent } from '@/types';
 
 const authConfigContent = computed<TwoFactorConfigContent>(() => {
     if (showRecoveryInput.value) {
