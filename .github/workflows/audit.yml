@@ -9,9 +9,9 @@ on:
   workflow_dispatch:
 
 jobs:
-  audit:
+  npm:
+    name: npm Audit
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v6
@@ -26,6 +26,13 @@ jobs:
 
       - name: Audit npm packages
         run: npm audit --audit-level=high
+
+  composer:
+    name: Composer Audit
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
 
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
