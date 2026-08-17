@@ -1212,16 +1212,16 @@
         },
         {
             "name": "inertiajs/inertia-laravel",
-            "version": "v3.2.1",
+            "version": "v3.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/inertiajs/inertia-laravel.git",
-                "reference": "e6ad31fbafb3c8d1c269c93ab12da3712c077744"
+                "reference": "7bfd75e352938b703180574b943d81963555a0aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/inertiajs/inertia-laravel/zipball/e6ad31fbafb3c8d1c269c93ab12da3712c077744",
-                "reference": "e6ad31fbafb3c8d1c269c93ab12da3712c077744",
+                "url": "https://api.github.com/repos/inertiajs/inertia-laravel/zipball/7bfd75e352938b703180574b943d81963555a0aa",
+                "reference": "7bfd75e352938b703180574b943d81963555a0aa",
                 "shasum": ""
             },
             "require": {
@@ -1231,7 +1231,7 @@
                 "symfony/console": "^7.0|^8.0"
             },
             "conflict": {
-                "laravel/boost": "<2.2.0"
+                "laravel/boost": "<2.5.0"
             },
             "require-dev": {
                 "guzzlehttp/guzzle": "^7.15.2|^8.0",
@@ -1278,9 +1278,9 @@
             ],
             "support": {
                 "issues": "https://github.com/inertiajs/inertia-laravel/issues",
-                "source": "https://github.com/inertiajs/inertia-laravel/tree/v3.2.1"
+                "source": "https://github.com/inertiajs/inertia-laravel/tree/v3.3.1"
             },
-            "time": "2026-07-29T09:10:23+00:00"
+            "time": "2026-08-04T21:58:51+00:00"
         },
         {
             "name": "laravel/fortify",
@@ -8986,16 +8986,16 @@
         },
         {
             "name": "nunomaduro/pao",
-            "version": "v1.1.3",
+            "version": "v1.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/pao.git",
-                "reference": "322f22095f3639551b64db9a13dfd8ab09c8206b"
+                "reference": "5aee99c8c37565e9c457c33f4d36aa363a389dc8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/pao/zipball/322f22095f3639551b64db9a13dfd8ab09c8206b",
-                "reference": "322f22095f3639551b64db9a13dfd8ab09c8206b",
+                "url": "https://api.github.com/repos/laravel/pao/zipball/5aee99c8c37565e9c457c33f4d36aa363a389dc8",
+                "reference": "5aee99c8c37565e9c457c33f4d36aa363a389dc8",
                 "shasum": ""
             },
             "require": {
@@ -9009,15 +9009,15 @@
                 "phpunit/phpunit": "<12.5.23 || >=13.0.0 <13.1.7 || >=14.0.0"
             },
             "require-dev": {
-                "brianium/paratest": "^7.23.0",
-                "laravel/pint": "^1.30.0",
+                "brianium/paratest": "^7.20.0",
+                "laravel/pint": "^1.30.5",
                 "orchestra/testbench": "^10.11.0 || ^11.1.0",
-                "pestphp/pest": "^4.7.2 || ^5.0.1",
-                "pestphp/pest-plugin-type-coverage": "^4.0.4 || ^5.0.0",
-                "phpstan/phpstan": "^2.2.7",
-                "rector/rector": "^2.5.8",
-                "symfony/process": "^7.4.8 || ^8.1.0",
-                "symfony/var-dumper": "^7.4.8 || ^8.1.2"
+                "pestphp/pest": "^4.7.8 || ^5.1.0",
+                "pestphp/pest-plugin-type-coverage": "^4.0.4 || ^5.0.2",
+                "phpstan/phpstan": "^2.2.8",
+                "rector/rector": "^2.6.1",
+                "symfony/process": "^7.4.13 || ^8.1.0",
+                "symfony/var-dumper": "^7.4.15 || ^8.1.2"
             },
             "type": "library",
             "extra": {
@@ -9068,7 +9068,7 @@
                 "source": "https://github.com/laravel/pao"
             },
             "abandoned": "laravel/pao",
-            "time": "2026-07-29T18:38:14+00:00"
+            "time": "2026-08-10T23:45:44+00:00"
         },
         {
             "name": "pestphp/pest",
